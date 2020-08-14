@@ -1,0 +1,131 @@
+@charset "UTF-8";
+body{
+  margin: 0;
+  text-align: center;
+}
+.top{
+  background-color: #F9C74F;
+  position: relative;
+  padding: 100px;
+}
+h1{
+  font-family: 'Cinzel', serif;
+  color: #43AA8B;
+  font-size: 5.60rem;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+}
+h2{
+  font-family: 'Gotu', sans-serif;
+  font-weight: normal;
+  color: #43AA8B;
+  font-size: 2.5rem;
+}
+h3{
+  font-family: 'Gotu', sans-serif;
+  color: #577590;
+}
+a{
+  font-family: 'Gotu', sans-serif;
+  color: #F94135;
+}
+p{
+  font-family: 'Gotu', sans-serif;
+  padding: 10px;
+}
+.bottom-cloud{
+  position: absolute;
+}
+.top-cloud{
+  position: relative;
+    left: 300px;
+}
+.skill-row img{
+  width: 300px;
+  height: 375px;
+  margin-right: 10px;
+}
+.profile-picture{
+  width: 150px;
+  height: 150px;
+}
+.profile{
+  background-color: #90BE6D;
+  padding: 10px;
+}
+div.skills h2{
+  background-color: #577590;
+  margin: 0;
+  border: 0.2 solid black;
+}
+.skills{
+  background-color: #F9C74F;
+  margin: 0;
+}
+
+.skill-row{
+  width: 25%;
+  display: inline-block;
+}
+.html{
+  background-color: #F8961E;
+}
+.css{
+  background-color: #F3722C;
+}
+.javascript{
+  background-color: #F94135;
+}
+
+.contact-me{
+  margin: 0;
+  background-color: #90BE6D
+}
+.contact-me h2{
+  margin: 0;
+}
+.bottom-container{
+  margin: 0;
+  background-color: #577590;
+}
+.bottom-container p{
+  margin: 0;
+}
+
+
+
+//* CSS Button code *//
+.BUTTON_KCZ {
+   -webkit-border-radius: 61px;
+   -moz-border-radius: 61px;
+   border-radius: 61px;
+   height: 12px;
+   line-height: 12px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   width: 233px;
+   font-size: 43px;
+   font-weight: 200;
+   padding: 47px;
+   background-color: #F64E3D;
+   text-shadow: 0px 0px 30px #FFAE00;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_KCZ:hover {
+   border: solid #337FED 1px;
+   background: #F6F33D;
+   background-image: -webkit-linear-gradient(top, #F6F33D, #D0691E);
+   background-image: -moz-linear-gradient(top, #F6F33D, #D0691E);
+   background-image: -ms-linear-gradient(top, #F6F33D, #D0691E);
+   background-image: -o-linear-gradient(top, #F6F33D, #D0691E);
+   background-image: linear-gradient(to bottom, #F6F33D, #D0691E);
+   -webkit-border-radius: 61px;
+   -moz-border-radius: 61px;
+   border-radius: 61px;
+   text-decoration: none;
+}
