@@ -1,0 +1,115 @@
+@charset "utf-8";
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+p {
+    font-size: 2.0rem;
+}
+
+
+/*Start of top section*/
+
+.name {
+    background-color: #356fe4c9;
+    color: #fff;
+}
+
+.top-cloud-1 {
+    position: relative;
+    left: 35%;
+}
+
+.top-cloud-2 {
+    position: relative;
+    right: 35%;
+}
+
+.name h2 {
+    margin-bottom: 4%;
+}
+
+.whale-img {
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+
+/*End of top section*/
+
+
+/*Start of profile section*/
+
+.profile {
+    background-color: #A0C4F2;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+}
+
+.profile h2 {
+    font-size: 5rem;
+}
+
+.profile p {
+    margin-bottom: 0;
+}
+
+
+/*End of profile section*/
+
+
+/*Start of skills section*/
+
+.html-img,
+.css-img,
+.js-img {
+    width: 300px;
+    height: 375px;
+}
+
+.html-col {
+    background-color: #0540F2;
+}
+
+.css-col {
+    background-color: #076DF2;
+}
+
+.js-col {
+    background-color: #0554F2;
+}
+
+
+/*End of skills section*/
+
+
+/*Start of contact section */
+
+.contact-me {
+    padding: 3%;
+}
+
+.contact-me h2 {
+    margin: 10px;
+}
+
+.mail-img {
+    width: 100px;
+}
