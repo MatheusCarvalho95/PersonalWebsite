@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Counter</title>
+</head>
+
+<body>
+    <h1>How many numbers do you want?</h1>
+    <input id="input" type="number" value="10">
+    <button onclick=countFibonacci()>Count the fibonacci numbers for me!</button>
+    <button onclick=printFibonacci()>Let me see!</button>
+    <div id="result"></div>
+    <script>
+        var Fibonacci = [];
+
+
+        function countFibonacci() {
+            var holdervalue = document.getElementById('input');
+            var numValue = holdervalue.value;
+            var a = 0;
+            var b = 1;
+            var c;
+
+            while (Fibonacci.length <= numValue) {
+                console.log(Fibonacci)
+                Fibonacci.push(a)
+                c = a;
+                a = a + b;
+                b = c;
+
+            }
+        }
+
+        function printFibonacci() {
+            holder = document.getElementById('result');
+            for (var j = 0; j < Fibonacci.length; j++)
+                holder.innerHTML += "<p>" + Fibonacci[j] + "</p><br>"
+        }
+    </script>
+</body>
+
+</html>
